@@ -1,4 +1,6 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
+import "./Dictionary.css"
 
 function App() {
   return (
@@ -6,8 +8,10 @@ function App() {
       <div className="container">
         <header>Dictionary App</header>
         <br></br>
-
-        <footer>
+<main>
+  <Dictionary />
+</main>
+        <footer><small>
           {" "}
           This project open sourced on{" "}
           <a
@@ -26,7 +30,7 @@ function App() {
             rel="noopener noreferrer"
           >
             here
-          </a>
+          </a></small>
         </footer>
       </div>
     </div>
