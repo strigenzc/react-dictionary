@@ -2,12 +2,11 @@ import "./App.css";
 import Dictionary from "./Dictionary";
 import "./Dictionary.css";
 
-
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="gradient">Dictionary App</header>
+        <header className="DictionaryHeader">Search for a Word</header>
         <br></br>
         <main>
           <Dictionary />

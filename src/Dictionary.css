@@ -1,5 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 body {
-  background-color: #fff;
+  background: repeating-linear-gradient(
+    to bottom,
+    #0f0a1e,
+    #0f0a1e 2px,
+    lighten(#0f0a1e, 3%) 2px,
+    lighten(#0f0a1e, 3%) 4px
+  );
   max-width: 900px;
   margin: 30px;
   height: 100vh;
@@ -16,50 +24,52 @@ body {
 }
 
 .App {
+  font-family: "Press Start 2P", cursive;
+  background: repeating-linear-gradient(
+    to bottom,
+    #0f0a1e,
+    #0f0a1e 2px,
+    lighten(#0f0a1e, 3%) 2px,
+    lighten(#0f0a1e, 3%) 4px
+  );
   display: block;
   position: relative;
   margin: auto;
-  border: 6px groove rgba(94, 114, 235, 0.7);
-  border-radius: 20px;
   padding: 20px;
-  background: #edddd4;
 }
 
 .Results {
   padding: 50px;
   margin-top: 50px;
+  font-size: 10px;
 }
 
 .Results h2 {
   text-transform: capitalize;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-
-.gradient {
-  background-image: linear-gradient(
-    90deg,
-    rgba(94, 114, 235, 1) 0%,
-    rgba(255, 145, 144, 1) 56%,
-    rgba(254, 193, 149, 1) 100%
-  );
-  color: transparent;
-  font-size: 10vmin;
-  font-family: "Pacifico", cursive;
-  padding: 10px;
-  -webkit-background-clip: text;
-
-  animation: move 1s infinite;
+.DictionaryHeader {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 90px;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 5px;
+  text-shadow: -2px 0 0 #fdff2a, -4px 0 0 #df4a42, 2px 0 0 #91fcfe,
+    4px 0 0 #4405fc;
+  animation: blink 1s steps(4, start) infinite;
 }
 
-@keyframes move {
-  50% {
-    background-image: linear-gradient(
-      262deg,
-      rgba(94, 114, 235, 1) 0%,
-      rgba(255, 145, 144, 1) 56%,
-      rgba(254, 193, 149, 1) 100%
-    );
+@keyframes blink {
+  to {
+    visibility: hidden;
   }
 }
 
