@@ -5,12 +5,12 @@ body {
     to bottom,
     #0f0a1e,
     #0f0a1e 2px,
-    lighten(#0f0a1e, 3%) 2px,
-    lighten(#0f0a1e, 3%) 4px
+    #140e29 2px,
+    #140e29 4px
   );
   max-width: 900px;
-  margin: 30px;
-  height: 100vh;
+  margin: 30px auto;
+  min-height: calc(100vh - 60px);
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -29,8 +29,8 @@ body {
     to bottom,
     #0f0a1e,
     #0f0a1e 2px,
-    lighten(#0f0a1e, 3%) 2px,
-    lighten(#0f0a1e, 3%) 4px
+    #140e29 2px,
+    #140e29 4px
   );
   display: block;
   position: relative;
