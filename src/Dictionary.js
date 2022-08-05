@@ -29,14 +29,14 @@ export default function Dictionary() {
           <div className="col-md-9">
             <input
               type="search"
-              placeholder="Enter a word"
+              placeholder="Search for a word"
               autoFocus="true"
               onChange={handleKeywordChange}
               className="form-control"
             />
           </div>
           <div className="col-md-3">
-            <input type="submit" className="button btn btn-outline-dark" />
+            <input type="submit" className="button btn btn-outline-light" />
           </div>
         </div>
       </form>
