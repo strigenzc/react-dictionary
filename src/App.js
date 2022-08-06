@@ -37,7 +37,9 @@ function App() {
           </footer>
         </div>
       </div>
-      <img src="pacman.jpg" alt="pacman photo" />
+      <div className="pacman">
+        <img src="/pacman.png" class="img-fluid" alt="videogame pacman" />
+      </div>
     </div>
   );
 }

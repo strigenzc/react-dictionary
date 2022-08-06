@@ -53,6 +53,12 @@ body {
   text-transform: capitalize;
 }
 
+.webpage .pacman {
+  max-width: 200px;
+  max-height: 120px;
+  float: left;
+}
+
 .DictionaryHeader {
   position: relative;
   top: 0;
