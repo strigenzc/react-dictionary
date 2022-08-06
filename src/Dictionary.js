@@ -36,10 +36,7 @@ export default function Dictionary() {
             />
           </div>
           <div className="col-md-3">
-            <input
-              type="submit"
-              className="button btn btn-outline-light"
-            />
+            <input type="submit" className="button btn btn-outline-light" />
           </div>
         </div>
       </form>

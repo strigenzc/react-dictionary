@@ -19,6 +19,7 @@ function App() {
               <a
                 href="https://github.com/strigenzc/react-dictionary"
                 target="_blank"
+                className="link"
                 rel="nooperner noreferrer"
               >
                 {" "}
@@ -29,6 +30,7 @@ function App() {
               <a
                 href="https://strigenz-portfolio.netlify.app"
                 target="_blank"
+                className="link"
                 rel="noopener noreferrer"
               >
                 here
@@ -38,7 +40,7 @@ function App() {
         </div>
       </div>
       <div className="pacman">
-        <img src="/pacman.png" class="img-fluid" alt="videogame pacman" />
+        <img src="/pacman.png" className="img-fluid" alt="videogame pacman" />
       </div>
     </div>
   );
