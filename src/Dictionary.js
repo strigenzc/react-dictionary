@@ -40,6 +40,9 @@ export default function Dictionary() {
           </div>
         </div>
       </form>
+      <div className="hint">
+        Suggested words: sharks, yoga, pencil
+      </div>
       <Results results={results} />
     </div>
   );

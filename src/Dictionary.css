@@ -45,9 +45,13 @@ body {
   color: #80b3ff;
 }
 
+.Results section {
+  padding: 15px;
+}
+
 .Results {
-  padding: 50px;
-  margin-top: 50px;
+  padding: 5px;
+  margin-top: 30px;
   font-size: 10px;
   color: white;
   text-align: left;
@@ -57,10 +61,25 @@ body {
   text-transform: capitalize;
 }
 
-.webpage .pacman {
-  max-width: 200px;
+.Dictionary section {
+  background: #1d1736;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.Dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border: 1px solid #ddd;
+}
+
+.pacman {
+  max-width: 400px;
   max-height: 120px;
-  float: left;
+  float: right;
+  margin-right: -100px;
 }
 
 .DictionaryHeader {
@@ -86,6 +105,12 @@ body {
   color: #80b3ff;
 }
 
+.hint {
+  font-size: 9px;
+  color: white;
+  margin-top: 5px;
+}
+
 @keyframes blink {
   to {
     visibility: hidden;
@@ -94,7 +119,7 @@ body {
 
 .Meaning .ResultsHeader {
   text-decoration: underline;
-  font-size: 13px;
+  font-size: 14px;
   text-align: left;
 }
 
@@ -120,5 +145,9 @@ body {
 
   .App footer {
     font-size: 7px;
+  }
+
+  .pacman {
+    max-width: 200px;
   }
 }
