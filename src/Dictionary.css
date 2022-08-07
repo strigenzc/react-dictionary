@@ -68,6 +68,7 @@ body {
   font-size: 36px;
   font-weight: bold;
   line-height: 1.5;
+  color: #ff0000;
 }
 
 .Dictionary section {
@@ -132,6 +133,7 @@ body {
   font-size: 9px;
   color: white;
   margin-top: 5px;
+  text-align: left;
 }
 
 .Meaning .ResultsHeader {
@@ -140,12 +142,19 @@ body {
   text-align: left;
 }
 
-.Synonyms {
-  margin: 20px 0 0;
-  padding: 0;
+.Meaning h3 {
+  color: #01ff00;
 }
 
-.Synonyms li {
+.Synonym {
+  margin: 20px 0 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-size: 20px;
+  color: #fdff2a;
+}
+
+.Synonym li {
   display: inline-block;
   font-size: 13px;
   padding-right: 10px;
