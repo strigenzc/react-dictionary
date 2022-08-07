@@ -3,13 +3,9 @@ import axios from "axios";
 import Results from "./Results";
 import "./Dictionary.css";
 
-export default function Dictionary() {
+export default function Dictionary(props) {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
-
-  function handleKeywordChange(event) {
-    setKeyword(event.target.value);
-  }
 
   function handleResponse(response) {
     setResults(response.data[0]);
@@ -20,6 +16,10 @@ export default function Dictionary() {
 
     let apiURL = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
     axios.get(apiURL).then(handleResponse);
+  }
+
+  function handleKeywordChange(event) {
+    setKeyword(event.target.value);
   }
 
   return (
@@ -41,7 +41,7 @@ export default function Dictionary() {
         </div>
       </form>
       <div className="hint">
-        Suggested words: sharks, yoga, pencil
+        Suggested words: Pixels, Arcade, Joystick, Co-op, ...
       </div>
       <Results results={results} />
     </div>
