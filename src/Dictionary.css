@@ -161,6 +161,19 @@ body {
   line-height: 1;
 }
 
+.Photos {
+  background: #1d1736;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
+  padding: 30px;
+  margin: 20px 0;
+}
+
+.Photos img {
+  border-radius: 4px;
+  padding: 4px;
+}
+
 @keyframes blink {
   to {
     visibility: hidden;
